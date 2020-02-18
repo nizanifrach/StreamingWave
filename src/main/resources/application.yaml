@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3328/streamwave
+    username: root
+    password: 123
+    driverClassName: com.mysql.jdbc.Driver
+
