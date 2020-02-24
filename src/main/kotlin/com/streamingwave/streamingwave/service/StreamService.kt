@@ -1,11 +1,10 @@
 package com.streamingwave.streamingwave.service
 
-import com.streamingwave.streamingwave.data.Video
-import com.streamingwave.streamingwave.data.VideoStream
+import com.streamingwave.streamingwave.data.Stream
 
 interface StreamService {
 
-    fun getStream(streamId: Long): VideoStream
-    fun saveVideo(video: Video): Video
-    fun saveVideoStream(videoStream: VideoStream): VideoStream
+    fun getStream(streamId: Long): Stream
+    fun createStream(stream: Stream): Stream
+    fun deleteStream(stream: Stream)
 }
