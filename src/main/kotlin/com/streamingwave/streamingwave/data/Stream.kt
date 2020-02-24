@@ -3,7 +3,7 @@ package com.streamingwave.streamingwave.data
 import javax.persistence.*
 
 @Entity
-data class VideoStream(
+data class Stream(
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         val id: Long,
